@@ -12,16 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firstapp1">
         <activity
-            android:name=".ToastAct"
+            android:name=".Tiger"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".Loup"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".Panda"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".VAnimaux"
+            android:exported="false" />
+        <activity
+            android:name=".Animaux"
+            android:exported="false" />
+        <activity
+            android:name=".Voices"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
