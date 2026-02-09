@@ -12,7 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firstapp1">
         <activity
-            android:name=".App_Act3"
+            android:name=".ToastAct"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
