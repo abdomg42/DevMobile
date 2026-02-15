@@ -1,8 +1,10 @@
 package com.example.firstapp1;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
@@ -14,6 +16,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class Voices extends AppCompatActivity {
 
     MediaPlayer mp;
+    Button next;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +30,12 @@ public class Voices extends AppCompatActivity {
             return insets;
         });
 
+        next = findViewById(R.id.next);
+        next.setOnClickListener(v -> {
+
+            Intent i = new Intent(Voices.this, Animaux.class);
+            startActivity(i);
+        });
         // Use arrays to store IDs so we can loop through them
         int[] images = {R.id.image1, R.id.image2, R.id.image3, R.id.image4, R.id.image5, R.id.image6, R.id.image7, R.id.image8, R.id.image9};
         int[] sounds = {R.raw.a1, R.raw.a2, R.raw.a3, R.raw.a4, R.raw.a5, R.raw.a6, R.raw.a7, R.raw.a8, R.raw.a9};

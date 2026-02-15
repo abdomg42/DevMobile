@@ -8,12 +8,15 @@
     tools:context=".Loup">
 
     <VideoView
-        android:id="@+id/videoView"
-        android:layout_width="286dp"
-        android:layout_height="477dp"
+        android:id="@+id/videoLoup"
+        android:layout_width="339dp"
+        android:layout_height="306dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="305dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
