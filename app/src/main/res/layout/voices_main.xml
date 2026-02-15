@@ -65,6 +65,7 @@
         android:src="@drawable/i6"
         app:layout_constraintBottom_toTopOf="@+id/image9"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/image5"
         app:layout_constraintTop_toBottomOf="@+id/image3" />
 
@@ -122,17 +123,24 @@
         android:layout_height="106dp"
         android:layout_marginStart="147dp"
         android:layout_marginEnd="148dp"
-        android:layout_marginBottom="119dp"
+        android:layout_marginBottom="104dp"
         android:src="@drawable/i0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="48dp"
         android:text="next"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="635dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
